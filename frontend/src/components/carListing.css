@@ -1,0 +1,23 @@
+.car-listing {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(238, 235, 235);
+}
+
+.car-listing img {
+  width: 100%;
+  height: auto;
+}
+
+.car-details {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .car-listing {
+    width: 100%;
+  }
+}
