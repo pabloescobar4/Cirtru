@@ -7,7 +7,7 @@ function CarListing({ car }) {
       <div style={{ height: '200px', width: '300px' }}>
         <img
           src={car.image}
-          style={{ height: '100%', width: '100%' }}
+          style={{ height: '100%', width: '100%',borderRadius:"10px" }}
           alt={`${car.make} ${car.model}`}
         />
       </div>
