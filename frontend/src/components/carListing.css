@@ -18,6 +18,15 @@
 
 @media (max-width: 768px) {
   .car-listing {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 368px) {
+  .car-listing {
     width: 100%;
   }
 }
